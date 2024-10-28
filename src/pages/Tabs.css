@@ -1,0 +1,28 @@
+.tab{
+    text-decoration: none;
+    padding: 10px 15px ;
+    background-color: #0000;
+    border: 1px solid #F02D2C;
+    border-radius: 50px;
+    color: #F02D2C;
+    /* font-size: 6px; */
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.tabs{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* background-color: aliceblue; */
+    height: max-content;
+    width: 80%;
+    align-items: center;
+    height: 100px;
+}
+.active{
+    color: #000;
+    background-color: #F02D2C;
+}

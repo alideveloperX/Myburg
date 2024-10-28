@@ -1,0 +1,36 @@
+nav{
+    height: 60px;
+    background-color: #F02D2C;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+body{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+nav .logo{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+nav .logo span {
+    color: aliceblue !important;
+    
+}
+.bt{
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    position: relative;
+}
+.bt .i{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}

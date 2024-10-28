@@ -1,0 +1,11 @@
+.cartnote{
+    /* height: 15px; */
+    /* width: 15px; */
+    height: max-content;
+    width: max-content;
+    padding:0 5px;
+    background-color: chocolate;
+    font-size: 10px;
+    line-height: 15px;
+    border-radius: 50px;
+}

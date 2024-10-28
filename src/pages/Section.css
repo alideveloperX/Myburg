@@ -1,0 +1,37 @@
+.section{
+    background-color: #1f1f1f;
+    width: 90%;
+    margin: 0 auto;
+    height: max-content;
+    border-radius: 8px;
+    padding-bottom: 40px;
+}
+.section .section-bar{
+    height: auto;
+    padding: 5px 100px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.section .live{
+    height: 15px ;
+    width: 15px;
+    background-color:  #F02D2C;
+    border-radius: 50%;
+    box-shadow:  0 0 20px #F02D2C;
+    animation: ani .5s ease-in-out infinite ;
+}
+@keyframes ani {
+    from{  box-shadow:  0 0 20px #F02D2C;}
+    to{box-shadow: 0 0 0 #F02D2C;}
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
